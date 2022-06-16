@@ -19,6 +19,6 @@ numbers = get_list_data_from_text("number.txt")
 
 for number in numbers:    
     number = number.strip()
-    path_b = static_folder + "\\" + number
-    shutil.move(path_b, dynamic_folder)
-    print("move " + path_b + " to " + dynamic_folder)
+    path_b = dynamic_folder + "\\" + number
+    shutil.move(path_b, static_folder)
+    print("move " + path_b + " to " + static_folder)

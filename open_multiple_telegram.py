@@ -19,11 +19,11 @@ def get_list_data_from_text(directory):
 
 change_ip_program_directory = "D:\\Programming\\github\\change_dcom_ip_automatically\\dist\\main.exe"
 numbers = get_list_data_from_text("number.txt")
-directory = "D:\\Programming\\github\\appium_python_automation_tool\\telegram_accounts\\already_sell\\batch_50_1\\"
+directory = "A:\\telegram_accounts\\"
 src_path = directory + "Telegram.exe"
 app = Application()
 count = 0
-number_of_account_to_change = 5
+number_of_account_to_change = 3
 for number in numbers:
     
     #change ip
