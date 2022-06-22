@@ -6,10 +6,10 @@ from pywinauto.application import Application
 
 def get_list_data_from_text(directory):
     f = open(directory, "r")
-    listData = []
+    list_data = []
     for x in f:
-        listData.append(x)
-    return listData
+        list_data.append(x)
+    return list_data
 
 static_folder = input("input static folder: ")
 dynamic_folder = input("input dynamic folder: ")

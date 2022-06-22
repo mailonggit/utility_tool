@@ -18,6 +18,7 @@ def get_list_data_from_text(directory):
     return listData
 
 number = input("input number to open: ")
+number = "+" + number
 directory = "A:\\telegram_accounts\\"
 src_path = directory + "Telegram.exe"
 app = Application()
